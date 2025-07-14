@@ -1,0 +1,154 @@
+@media  screen and (min-width:576px) and (max-width:992px) {
+  
+  :root{
+
+  font-size: 14px;
+
+}
+
+
+.body{
+
+   overflow-x: hidden;
+   overflow-y: scroll;
+
+  }
+
+
+.hero-container{
+
+  width: 40rem;
+  
+
+}
+
+.hero  > .hero-title{
+
+  font-size: 2.5rem;
+
+}
+
+.hero > .hero-description{
+
+  font-size: 1rem;
+
+}
+
+
+/* Donate section start for tab */
+
+
+.Donate-today{
+
+  width: 36rem;
+
+}
+
+.Donate-container{
+
+  height: 60rem;
+
+}
+
+.boxs{
+
+  display: grid;
+  grid-template-columns: repeat(  3,1fr) ;
+
+}
+
+
+
+/* our donate plan start */
+
+.plans{
+  width: 45rem ;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:.6rem;
+}
+
+
+.planbox{
+
+width:20rem;
+height: 20rem;
+
+}
+
+
+
+
+/* donation-section start */
+
+
+
+.donation-conatainer{
+
+  margin: 0rem;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+
+}
+
+.donation-box-1 , .donation-box-2{
+
+
+padding: 5rem;
+  
+}
+
+.donation-box-2{
+  margin-top: 1rem;
+}
+
+
+.donation{
+
+  width: 20rem;
+  height: 18rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap:.1rem;
+}
+
+.donation-title{
+  font-size: 1.7rem;
+  font-weight: bold;
+  color:#121212;
+  
+}
+
+.donation-description{
+
+  font-size: .8rem;
+  font-weight: normal;
+  line-height: 1.7rem;
+  color: #707070;
+}
+
+
+.donation-img{
+  width: 24rem;
+  height: 20rem;
+}
+
+
+
+
+/* foooter  */
+
+
+.footer-content{
+
+ display: flex;
+
+
+}
+
+
+
+
+}
